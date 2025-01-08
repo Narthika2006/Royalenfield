@@ -1,0 +1,291 @@
+body{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url(clear\ blk.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px ;
+    background-color:black;
+    color: crimson;
+}
+
+#img{
+    width: 100px;
+    height: 100px;
+}
+#taskbar{
+    display:flex;
+    list-style-type: none;
+    gap:50px
+}
+header nav ul li a{
+    color:sandybrown;
+    text-decoration: none;
+    font-size: 20px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+    
+    
+}
+header nav ul li :hover{
+    color: red;
+   
+}
+body h1{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#about{
+    
+    background-image: url('dealers-home-new.avif');
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;   
+    display: flex;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+#ab1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    font-style: italic;
+}
+#ab2{
+    padding-left: 150px;
+    padding-right: 150px;
+    color:white;
+    font-size: larger;
+    font-style: oblique;
+    
+}
+#ab2:hover{
+    transform:scale(1.2);
+}
+
+#pic1{
+    height: 250px;
+    width: 250px;
+    
+}
+body{
+    text-align: center;
+    }
+
+
+#Contact {
+    background-color:black; 
+    color: crimson;
+    padding: 20px 0; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+#Contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: crimson; 
+}
+
+
+#foot a {
+    text-decoration: none;
+    color: #fff; 
+    margin: 0 10px;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+#foot a:hover {
+    color:  crimson;
+}
+
+
+#foot a i {
+    margin-right: 8px; }
+
+
+#foot p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa; 
+    
+}
+#main{
+display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+  gap: 20px; 
+}
+#Locateus{
+    background-image:url('bear-650-landing-new.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#OurWorld{
+    background-color: black;
+    color: crimson;
+    
+}
+#OurWorld h1{
+    text-shadow: brown;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+#for{
+    width:150px;
+    background-color:black;
+    color:crimson;
+    padding:30px;
+    
+}
+.grid-container {
+    display:flex;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+    gap: 20px; 
+    padding: 20px;
+   
+    justify-items: center; /* Center items in each grid cell */
+  }
+
+  
+  .bike-item {
+    text-align: center;
+    background-color:black; 
+    padding: 15px;
+    border-radius: 8px;
+    
+  }
+
+  .bike-item img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+  }
+
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color:whitesmoke;
+    margin-top: 10px;
+  }
+
+#bike1:hover{
+    transform: scale(1.2);
+}
+#bike2:hover{
+    transform: scale(1.2);
+}
+#bike3:hover{
+    transform: scale(1.2);
+}
+#bike4:hover{
+    transform: scale(1.2);
+}
+#tit:hover{
+    
+        transform:scalex(0.5);
+    
+    
+}
+#img:hover{
+    transform:rotatex('90deg')
+}
+#sub:hover{
+    
+        height:100px;
+        width:100px;
+       
+      animation-name: box ;
+      animation-duration:0.7s;
+      animation-iteration-count: infinite;
+}
+    @keyframes box{
+        0%{
+            background-color: aqua;
+        }
+        50%{
+            background-color:red;
+        }
+        
+    }
+    .map{
+        border-style: solid;
+        border-color:black;
+
+    }
+    .map:hover{
+        transform:scale(1.1);
+    }
+   
+    
+    #move {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        overflow-x: auto; 
+        overflow-y: hidden; 
+        white-space: nowrap;
+        padding: 1px;
+      }
+    
+     
+      #slide {
+        display: inline-block; 
+        margin-right: 10px; 
+      }
+      #move::-webkit-scrollbar {
+        display: none; 
+      }
+    
+      #move {
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+      }
+      #motor{
+       
+        color: black;
+      }
+      #b1{
+        text-decoration:none;
+        color: crimson;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-style: italic;
+      }
+      #b2{
+        text-decoration:none;
+        color: crimson;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-style: italic;
+      }#b3{
+        text-decoration:none;
+        color: crimson;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-style: italic;
+      }#b4{
+        text-decoration:none;
+        color: crimson;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-style: italic;
+      }
+     
